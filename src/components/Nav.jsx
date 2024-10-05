@@ -2,13 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Nav (props) {
   return (
-    <div className="nav">
-      <Link to="/">
-        <div>CRYPTO PRICES</div>
-      </Link>
-      <Link to="/currencies">
-        <div>CURRENCIES</div>
-      </Link>
+    <div className="topnav">
+      <Link to="/">Home</Link>
+      <Link to="/gallery">gallery</Link>
+      <Link to="/todo">todo</Link>
+      <Link to="/signup">sign up</Link>
     </div>
   );
 }
