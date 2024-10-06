@@ -16,11 +16,11 @@ function reduceData(state, action) {
       }
       case 'edit': {
         return state.map(item =>
-          item.id === action.payload.id ? { ...item, title: action.payload.newTitle } : item
+          item.id === action.payload.id ? { ...item, task: action.payload.newTitle } : item
         );
       }
       case 'add': {
-        return [...state, { id: nextId++, title: action.payload, completed: false }]  }
+        return [...state, { id: Id++, task: action.payload, completed: false }]  }
       default:
         return state;
     }
