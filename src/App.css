@@ -35,3 +35,13 @@ body {
   height: 900px;
   padding-top: 200px;
 }
+.card{
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 10em;
+  }
+}
