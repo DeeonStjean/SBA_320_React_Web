@@ -32,8 +32,9 @@ export default function Signup (props) {
             name="jForm"
             method="POST"
             id="form">
-                <input type="text" name="email" placeholder="Email" />
-                <input id="password" type="password" name="password" placeholder="Password" />
+                <input type="text" name="email" placeholder="Email" 
+                pattern="^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$" required/>
+                <input id="password" type="password" minlength="4" maxlength="12" placeholder="Password" required/>
                 <button type="submit">Submit</button>
             </form>
         </div>
