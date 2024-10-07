@@ -1,3 +1,9 @@
+# About
+my goal was to build a mini four pages react web Application with use of a cat api.
+- the Home page: will show you card with a image of a cat, and if you press the button you get a new cat image from a cat api
+- gallery page: will show you a carousel of 10 cat base of the type of cat breeds you pick from the cat api.(currently not available)
+- todo page: this page show a to do list that you can add task, edit task or delete task once task is check off first. soon add database to storage the to do list.
+- signup page: this page show where you can sign up or login, and you can't submit until the requirement are meet.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
