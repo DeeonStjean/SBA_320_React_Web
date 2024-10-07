@@ -1,4 +1,6 @@
 # About
+my live site of this project: https://deeonstjeansba-320-react-web.netlify.app/
+
 my goal was to build a mini four pages react web Application with use of a cat api.
 - the Home page: will show you card with a image of a cat, and if you press the button you get a new cat image from a cat api
 - gallery page: will show you a carousel of 10 cat base of the type of cat breeds you pick from the cat api.(currently not available)
